@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5869A9EA1C7441F300F80296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5869A9E91C7441F300F80296 /* main.m */; };
+		5869A9ED1C7441F300F80296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5869A9EC1C7441F300F80296 /* AppDelegate.m */; };
+		5869A9F51C7441F300F80296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5869A9F41C7441F300F80296 /* Assets.xcassets */; };
+		5869A9F81C7441F300F80296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5869A9F61C7441F300F80296 /* LaunchScreen.storyboard */; };
+		5869AA031C7441F300F80296 /* ZKImageZoomAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5869AA021C7441F300F80296 /* ZKImageZoomAnimationTests.m */; };
+		5869AA0E1C7441F400F80296 /* ZKImageZoomAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5869AA0D1C7441F400F80296 /* ZKImageZoomAnimationUITests.m */; };
+		5869AA211C7443BF00F80296 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5869AA201C7443BF00F80296 /* image2.jpg */; };
+		5869AA261C7443E800F80296 /* ZKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5869AA241C7443E800F80296 /* ZKMainViewController.m */; };
+		5869AA271C7443E800F80296 /* ZKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5869AA251C7443E800F80296 /* ZKMainViewController.xib */; };
+		5869AA2D1C745FAE00F80296 /* CAShapeLayer+ViewMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5869AA2C1C745FAE00F80296 /* CAShapeLayer+ViewMask.m */; };
+		58D007151C75DA9500D54822 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58D007141C75DA9500D54822 /* cat.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5869A9FF1C7441F300F80296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5869A9DD1C7441F300F80296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5869A9E41C7441F300F80296;
+			remoteInfo = ZKImageZoomAnimation;
+		};
+		5869AA0A1C7441F400F80296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5869A9DD1C7441F300F80296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5869A9E41C7441F300F80296;
+			remoteInfo = ZKImageZoomAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5869A9E51C7441F300F80296 /* ZKImageZoomAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKImageZoomAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5869A9E91C7441F300F80296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5869A9EB1C7441F300F80296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5869A9EC1C7441F300F80296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5869A9F41C7441F300F80296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5869A9F71C7441F300F80296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5869A9F91C7441F300F80296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5869A9FE1C7441F300F80296 /* ZKImageZoomAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKImageZoomAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5869AA021C7441F300F80296 /* ZKImageZoomAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKImageZoomAnimationTests.m; sourceTree = "<group>"; };
+		5869AA041C7441F300F80296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5869AA091C7441F400F80296 /* ZKImageZoomAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKImageZoomAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5869AA0D1C7441F400F80296 /* ZKImageZoomAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKImageZoomAnimationUITests.m; sourceTree = "<group>"; };
+		5869AA0F1C7441F400F80296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5869AA201C7443BF00F80296 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		5869AA231C7443E800F80296 /* ZKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMainViewController.h; sourceTree = "<group>"; };
+		5869AA241C7443E800F80296 /* ZKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMainViewController.m; sourceTree = "<group>"; };
+		5869AA251C7443E800F80296 /* ZKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKMainViewController.xib; sourceTree = "<group>"; };
+		5869AA2B1C745FAE00F80296 /* CAShapeLayer+ViewMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+ViewMask.h"; sourceTree = "<group>"; };
+		5869AA2C1C745FAE00F80296 /* CAShapeLayer+ViewMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+ViewMask.m"; sourceTree = "<group>"; };
+		58D007141C75DA9500D54822 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5869A9E21C7441F300F80296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5869A9FB1C7441F300F80296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5869AA061C7441F300F80296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5869A9DC1C7441F300F80296 = {
+			isa = PBXGroup;
+			children = (
+				5869A9E71C7441F300F80296 /* ZKImageZoomAnimation */,
+				5869AA011C7441F300F80296 /* ZKImageZoomAnimationTests */,
+				5869AA0C1C7441F400F80296 /* ZKImageZoomAnimationUITests */,
+				5869A9E61C7441F300F80296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5869A9E61C7441F300F80296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5869A9E51C7441F300F80296 /* ZKImageZoomAnimation.app */,
+				5869A9FE1C7441F300F80296 /* ZKImageZoomAnimationTests.xctest */,
+				5869AA091C7441F400F80296 /* ZKImageZoomAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5869A9E71C7441F300F80296 /* ZKImageZoomAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5869A9EB1C7441F300F80296 /* AppDelegate.h */,
+				5869A9EC1C7441F300F80296 /* AppDelegate.m */,
+				5869AA221C7443E800F80296 /* Classes */,
+				5869A9F91C7441F300F80296 /* Info.plist */,
+				5869A9E81C7441F300F80296 /* Supporting Files */,
+			);
+			path = ZKImageZoomAnimation;
+			sourceTree = "<group>";
+		};
+		5869A9E81C7441F300F80296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58D007141C75DA9500D54822 /* cat.jpg */,
+				5869AA201C7443BF00F80296 /* image2.jpg */,
+				5869A9F41C7441F300F80296 /* Assets.xcassets */,
+				5869A9F61C7441F300F80296 /* LaunchScreen.storyboard */,
+				5869A9E91C7441F300F80296 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5869AA011C7441F300F80296 /* ZKImageZoomAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				5869AA021C7441F300F80296 /* ZKImageZoomAnimationTests.m */,
+				5869AA041C7441F300F80296 /* Info.plist */,
+			);
+			path = ZKImageZoomAnimationTests;
+			sourceTree = "<group>";
+		};
+		5869AA0C1C7441F400F80296 /* ZKImageZoomAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5869AA0D1C7441F400F80296 /* ZKImageZoomAnimationUITests.m */,
+				5869AA0F1C7441F400F80296 /* Info.plist */,
+			);
+			path = ZKImageZoomAnimationUITests;
+			sourceTree = "<group>";
+		};
+		5869AA221C7443E800F80296 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5869AA231C7443E800F80296 /* ZKMainViewController.h */,
+				5869AA241C7443E800F80296 /* ZKMainViewController.m */,
+				5869AA251C7443E800F80296 /* ZKMainViewController.xib */,
+				5869AA2B1C745FAE00F80296 /* CAShapeLayer+ViewMask.h */,
+				5869AA2C1C745FAE00F80296 /* CAShapeLayer+ViewMask.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5869A9E41C7441F300F80296 /* ZKImageZoomAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5869AA121C7441F400F80296 /* Build configuration list for PBXNativeTarget "ZKImageZoomAnimation" */;
+			buildPhases = (
+				5869A9E11C7441F300F80296 /* Sources */,
+				5869A9E21C7441F300F80296 /* Frameworks */,
+				5869A9E31C7441F300F80296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKImageZoomAnimation;
+			productName = ZKImageZoomAnimation;
+			productReference = 5869A9E51C7441F300F80296 /* ZKImageZoomAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5869A9FD1C7441F300F80296 /* ZKImageZoomAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5869AA151C7441F400F80296 /* Build configuration list for PBXNativeTarget "ZKImageZoomAnimationTests" */;
+			buildPhases = (
+				5869A9FA1C7441F300F80296 /* Sources */,
+				5869A9FB1C7441F300F80296 /* Frameworks */,
+				5869A9FC1C7441F300F80296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5869AA001C7441F300F80296 /* PBXTargetDependency */,
+			);
+			name = ZKImageZoomAnimationTests;
+			productName = ZKImageZoomAnimationTests;
+			productReference = 5869A9FE1C7441F300F80296 /* ZKImageZoomAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5869AA081C7441F300F80296 /* ZKImageZoomAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5869AA181C7441F400F80296 /* Build configuration list for PBXNativeTarget "ZKImageZoomAnimationUITests" */;
+			buildPhases = (
+				5869AA051C7441F300F80296 /* Sources */,
+				5869AA061C7441F300F80296 /* Frameworks */,
+				5869AA071C7441F300F80296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5869AA0B1C7441F400F80296 /* PBXTargetDependency */,
+			);
+			name = ZKImageZoomAnimationUITests;
+			productName = ZKImageZoomAnimationUITests;
+			productReference = 5869AA091C7441F400F80296 /* ZKImageZoomAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5869A9DD1C7441F300F80296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZK;
+				TargetAttributes = {
+					5869A9E41C7441F300F80296 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5869A9FD1C7441F300F80296 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5869A9E41C7441F300F80296;
+					};
+					5869AA081C7441F300F80296 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5869A9E41C7441F300F80296;
+					};
+				};
+			};
+			buildConfigurationList = 5869A9E01C7441F300F80296 /* Build configuration list for PBXProject "ZKImageZoomAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5869A9DC1C7441F300F80296;
+			productRefGroup = 5869A9E61C7441F300F80296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5869A9E41C7441F300F80296 /* ZKImageZoomAnimation */,
+				5869A9FD1C7441F300F80296 /* ZKImageZoomAnimationTests */,
+				5869AA081C7441F300F80296 /* ZKImageZoomAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5869A9E31C7441F300F80296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D007151C75DA9500D54822 /* cat.jpg in Resources */,
+				5869AA271C7443E800F80296 /* ZKMainViewController.xib in Resources */,
+				5869A9F81C7441F300F80296 /* LaunchScreen.storyboard in Resources */,
+				5869A9F51C7441F300F80296 /* Assets.xcassets in Resources */,
+				5869AA211C7443BF00F80296 /* image2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5869A9FC1C7441F300F80296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5869AA071C7441F300F80296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5869A9E11C7441F300F80296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5869AA2D1C745FAE00F80296 /* CAShapeLayer+ViewMask.m in Sources */,
+				5869A9ED1C7441F300F80296 /* AppDelegate.m in Sources */,
+				5869A9EA1C7441F300F80296 /* main.m in Sources */,
+				5869AA261C7443E800F80296 /* ZKMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5869A9FA1C7441F300F80296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5869AA031C7441F300F80296 /* ZKImageZoomAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5869AA051C7441F300F80296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5869AA0E1C7441F400F80296 /* ZKImageZoomAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5869AA001C7441F300F80296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5869A9E41C7441F300F80296 /* ZKImageZoomAnimation */;
+			targetProxy = 5869A9FF1C7441F300F80296 /* PBXContainerItemProxy */;
+		};
+		5869AA0B1C7441F400F80296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5869A9E41C7441F300F80296 /* ZKImageZoomAnimation */;
+			targetProxy = 5869AA0A1C7441F400F80296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5869A9F61C7441F300F80296 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5869A9F71C7441F300F80296 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5869AA101C7441F400F80296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5869AA111C7441F400F80296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5869AA131C7441F400F80296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZKImageZoomAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZKImageZoomAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5869AA141C7441F400F80296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZKImageZoomAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZKImageZoomAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5869AA161C7441F400F80296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKImageZoomAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZKImageZoomAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKImageZoomAnimation.app/ZKImageZoomAnimation";
+			};
+			name = Debug;
+		};
+		5869AA171C7441F400F80296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKImageZoomAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZKImageZoomAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKImageZoomAnimation.app/ZKImageZoomAnimation";
+			};
+			name = Release;
+		};
+		5869AA191C7441F400F80296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKImageZoomAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZKImageZoomAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKImageZoomAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5869AA1A1C7441F400F80296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKImageZoomAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZKImageZoomAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKImageZoomAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5869A9E01C7441F300F80296 /* Build configuration list for PBXProject "ZKImageZoomAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5869AA101C7441F400F80296 /* Debug */,
+				5869AA111C7441F400F80296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5869AA121C7441F400F80296 /* Build configuration list for PBXNativeTarget "ZKImageZoomAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5869AA131C7441F400F80296 /* Debug */,
+				5869AA141C7441F400F80296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5869AA151C7441F400F80296 /* Build configuration list for PBXNativeTarget "ZKImageZoomAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5869AA161C7441F400F80296 /* Debug */,
+				5869AA171C7441F400F80296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5869AA181C7441F400F80296 /* Build configuration list for PBXNativeTarget "ZKImageZoomAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5869AA191C7441F400F80296 /* Debug */,
+				5869AA1A1C7441F400F80296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5869A9DD1C7441F300F80296 /* Project object */;
+}
